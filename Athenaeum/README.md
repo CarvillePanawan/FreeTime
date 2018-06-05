@@ -4,13 +4,13 @@
 
 ###### Note: list is not final, items and concerns will be added as the project continues.
 
-Front-end
+#### Front-end
   1. [ ] Lessons layout
   2. [ ] Quiz layout
   3. [ ] Lessons icons
   4. [ ] Responsiveness
   
-Backend
+#### Back-end
   1. [ ] Account management
   2. [ ] Leaderboard
   3. [ ] Quiz functionalities
