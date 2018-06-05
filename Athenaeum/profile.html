@@ -1,0 +1,214 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js" async></script>
+		<script src="js/bootstrap.bundle.min.js" async></script>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/profile.css">
+	</head>
+	
+	<body>
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark c-navbar">
+			<a class="navbar-brand" href="index.html">
+				<div class="logo-container">
+					<img class="logo" src="images/AtenaeumLogoMin.png" alt="Athenaeum Logo">
+					<span class="logo-title">Athenaeum</span>
+				</div>
+			</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+					<a class="nav-link" href="#">Quiz</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Topics</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Glossary</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<span class="nav-item nav-link disabled">|</span>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<button type="button" class="nav-link btn dropdown-toggle profile-btn" data-toggle="dropdown">
+							Username
+							</button>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="#">View Profile</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="body-container">
+		
+		<div class="custom-container">
+			&nbsp;
+		</div>
+	
+		<div class="catch-phrase">
+			Welcome Username!
+		</div>
+			
+		<div class="custom-container profile-content">
+			<div class="profile-info-c">
+			
+			<div class="profile-info">
+				<div class="p-header">User Information</div>
+				<div class="p-content cccenter">
+					<div class="ppic-con">
+						<img class="profile-pic" src="images/athenaeumLogo.png">
+					</div>
+					&nbsp;
+					<h3>Username</h3>
+					<span>Email: </span>
+					<span>Date Created: </span>
+				</div>
+				
+				<div class="eprof-con">
+				<button type="button" class="eprof-btn" data-toggle="modal" data-target="#exampleModal">
+					Edit Profile
+				</button>
+				</div>
+
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Edit Form</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  		<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+						
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="email">Email address:</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<div class="form-group">
+									<label for="pwd">Password:</label>
+									<input type="password" class="form-control" id="pwd">
+								</div>
+								<input type="submit" id="submit-form" style="display: none">
+							</form>
+						</div>
+						
+						<div class="modal-footer">
+							<label for="submit-form" tabindex="0">
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</label>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+				
+			</div>
+			
+			<div class="profile-right">
+				<div class="past-quizzes-c">
+				
+				<div class="profile-info">
+					<div class="p-header">Past Quizzes</div>
+					<div class="p-content">
+					<table class="table c-table">
+						<thead>
+						  <tr>
+							<th>Topic</th>
+							<th>Score</th>
+							<th>Time Stamp</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+						  </tr>
+						  <tr>
+							<td>2</td>
+							<td>2</td>
+							<td>2</td>
+						  </tr>
+						  <tr>
+							<td>3</td>
+							<td>3</td>
+							<td>3</td>
+						  </tr>
+						</tbody>
+					 </table>
+					</div>
+				</div>	
+				
+				</div>
+				
+				<div class="leaderboard-pos-c">
+				
+				<div class="profile-info">
+					<div class="p-header">Leaderboard Positions</div>
+					<div class="p-content">
+					<table class="table c-table">
+						<thead>
+						  <tr>
+							<th>Leaderboard</th>
+							<th>Position</th>
+							<th>Time Stamp</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+						  </tr>
+						  <tr>
+							<td>2</td>
+							<td>2</td>
+							<td>2</td>
+						  </tr>
+						  <tr>
+							<td>3</td>
+							<td>3</td>
+							<td>3</td>
+						  </tr>
+						</tbody>
+					 </table>
+					</div>
+				</div>
+					
+				</div>
+			</div>
+		</div>
+			
+		</div>
+		
+		<footer class="page-footer font-small custom-footer">
+			<div class="footer-copyright text-center py-3">© 2018 Copyright: Saint Louis University, SCIS</div>
+		</footer>
+	</body>
+	
+</html

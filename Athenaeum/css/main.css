@@ -1,0 +1,36 @@
+.logo {
+	height: 50px !important;
+	width: 50px !important;
+	margin-right: 10px;
+	opacity: 0.7;
+}
+
+.logo-container:hover .logo,
+.logo-container:hover .logo-title {
+	opacity: 1;
+	color: rgb(255, 255, 255);
+}
+
+.logo-title {
+	font-family: "Josefin-Sans-Light";
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-container {
+	background-color: #5b646c;
+}
+
+.custom-footer {
+	background-color: #343a40;
+	color: #fff;
+	font-family: "Montserrat-Regular";
+}
+
+.c-navbar {
+	box-shadow: 0 5px 15px -5px #000;
+	height: 10vh;
+}
+
+.c-bottom {
+	box-shadow: inset 0px -10px 20px -10px #000; 
+}

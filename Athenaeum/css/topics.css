@@ -1,0 +1,67 @@
+body {
+	overflow: hidden;
+}
+
+.topics-jumbotron{
+	height: 77vh;
+}
+
+.test {
+	height: 100%;
+	margin: 0.5em;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.title-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: "Montserrat-Light";
+}
+
+.podium {
+	height: 40%;
+	width: 80%;
+	margin-top: 2%;
+}
+
+.podium-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tech-image {
+	height: 40%;
+	width: 55%;
+	border-radius: 100%;
+	margin-bottom: 2%;
+	border: 2px solid #fff;
+	transition: box-shadow .2s;
+	opacity: 0.8;
+}
+
+.tech-image:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3); 
+	opacity: 1;
+}
+
+.tech-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tech-title {
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat-Regular";
+	font-size: 2em;
+	height: 14%;
+}

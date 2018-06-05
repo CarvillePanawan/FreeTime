@@ -1,0 +1,183 @@
+c {
+	color: #3f6fd0;
+	font-family: "Montserrat-Light";
+}
+
+d {
+	font-family: "Montserrat-Light";
+}
+
+.custom-container {
+	margin: 0;
+	padding: 0;
+}
+
+.type-effect {
+	font-size: 2em;
+	font-family: "Montserrat-Regular";
+	color: #fff;
+}
+
+.typed-cursor{
+    font-size: 2em;
+    opacity: 1;
+	color: #fff;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    10% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    10% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    10% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#type-writer {
+	font-family: "Montserrat-Bold";
+	color: #3f6fd0;
+}
+
+.type-effect-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.custom-col-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.welcome-logo {
+	height: 200px;
+	width: 200px;
+	border: 2px solid #fff;
+	border-radius: 360px;
+	background-image: url("../images/honeycomb.png");
+}
+
+.welcome-logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.welcome-jumbotron {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.welcome-text {
+	font-size: 3em;
+	font-family: "Montserrat-Regular";
+	font-weight: bold;
+	color: #fff;
+}
+
+.custom-jumbotron {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.custom-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	margin-top: 2em;
+}
+
+.ltext {
+	background-color: #3f6fd0;
+	color: #fff !important;
+	font-size: 1.1em;
+	padding: 0.5em;
+	border-radius: 10px;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.welcome-ltext {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -40%);
+	-moz-transform: translate(-50%, -40%);
+	-ms-transform: translate(-50%, -40%);
+	-o-transform: translate(-50%, -40%);
+	transform: translate(-50%, -40%);
+	text-align: center;
+}
+
+.welcome-logo-container:hover .image {
+  	opacity: 0.3;
+	cursor: pointer;
+}
+
+.welcome-logo-container:hover .welcome-ltext {
+  	opacity: 1;
+	cursor: pointer;
+}
+
+.custom-row-container {
+	margin-top: 1em;
+}
+
+.catch-phrase {
+    box-shadow: inset 0px 10px 20px -10px #000,
+        		inset 0px -10px 20px -10px #000; 
+	background-color: #3f6fd0;
+	padding: 2.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: "Montserrat-Light";
+	font-size: 1.5em;
+  	background-image: url("../images/honeycomb.png");
+}
+
+.body-container {
+	display: flex;
+	flex-flow: column;
+}
+
+.bottom-what {
+	border-bottom: solid 2px #fff;
+	font-size: 2em;
+}
+
+.bottom-p {
+	padding-top: 1em;
+	color: #fff;
+	font-family: "Montserrat-Regular";
+	width: 50%;
+	text-align: center;
+}
+
+.bottom-jumbotron {
+	border-top: solid 2em #5b646c;
+	background-color: #525a61;
+	padding: 2em;
+}
